@@ -46,10 +46,9 @@ Output:
 		{
 			"body": "",
 			"headers": {
-				"access-control-allow-headers": "Authorization, Content-Type, On-behalf-of, x-sg-elas-acl",
+				...,
 				"access-control-allow-methods": "POST",
 				"access-control-allow-origin": "https://sendgrid.api-docs.io",
-        ...
 			},
 			"statusCode": 202
 		},
