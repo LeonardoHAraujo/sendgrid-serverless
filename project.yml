@@ -1,0 +1,11 @@
+packages:
+  - name: mail
+    actions:
+      - name: send
+        limits:
+          timeout: 5000
+          memory: 256
+environment:
+  EMAIL: ${EMAIL}
+  PASSWORD: ${PASSWORD}
+  SENDGRID_API_KEY: ${SENDGRID_API_KEY}
