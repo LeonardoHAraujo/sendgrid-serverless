@@ -40,7 +40,7 @@ curl -X POST https://faas-lon1-917a94a7.doserverless.co/api/v1/web...
 
 Output:
 
-```json
+```
 {
   "success": [
 		{
